@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optinet — Zero-Loss Business Continuity</title>
+    <link rel="icon" type="png" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <header class="navbar">
+        <div class="navbar__inner">
+            <a href="#" class="logo">
+                <img src="./logo.png" alt="Optinet Logo" class="logo-img">
+            </a>
+
+            <nav class="nav-links">
+                <div class="nav-item-dropdown">
+                    <a href="#solutions" class="nav-link-item active-nav">
+                        SOLUTIONS
+                        <svg class="chevron-down" viewBox="0 0 10 6" fill="none">
+                            <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#solutions">Connectivity</a>
+                        <a href="#solutions">Network Technologies</a>
+                        <a href="#solutions">Managed Services</a>
+                        <a href="#solutions">Cloud Connectivity</a>
+                    </div>
+                </div>
+                <a href="#network" class="nav-link-item">ZERO-LOSS FAILOVER</a>
+                <a href="#solutions" class="nav-link-item">MULTI-TENANT</a>
+                <a href="#network" class="nav-link-item">ENTERPRISE NNI</a>
+                
+                <div class="nav-item-dropdown">
+                    <a href="#about" class="nav-link-item">
+                        LEARN
+                        <svg class="chevron-down" viewBox="0 0 10 6" fill="none">
+                            <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#about">About Optinet</a>
+                        <a href="#about">Our Network</a>
+                        <a href="#about">Case Studies</a>
+                    </div>
+                </div>
+                <a href="#contact" class="nav-link-item">SUPPORT</a>
+            </nav>
+
+            <div class="navbar__right">
+                <a href="#contact" class="btn btn--gradient navbar__cta">MAKE AN ENQUIRY</a>
+
+                <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-dropdown">
+        <div class="mobile-dropdown-links">
+            <a href="#solutions">SOLUTIONS</a>
+            <a href="#network">ZERO-LOSS FAILOVER</a>
+            <a href="#solutions">MULTI-TENANT</a>
+            <a href="#network">ENTERPRISE NNI</a>
+            <a href="#about">LEARN</a>
+            <a href="#contact">SUPPORT</a>
+        </div>
+        <a href="#contact" class="btn btn--gradient">MAKE AN ENQUIRY</a>
+    </div>
+
+    <div class="one-window-viewport">
+
+        <section id="hero" class="hero-section">
+            <div class="hero-glow-left"></div>
+            <div class="hero-glow-top"></div>
+
+            <div class="hero-ribbon-art" aria-hidden="true">
+                <svg viewBox="0 0 1000 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="ribbonGreenBody" x1="15%" y1="5%" x2="85%" y2="75%">
+                            <stop offset="0%" stop-color="#3eff5b" />
+                            <stop offset="35%" stop-color="#14d63c" />
+                            <stop offset="70%" stop-color="#0a5f2b" />
+                            <stop offset="100%" stop-color="#051614" />
+                        </linearGradient>
+                        <linearGradient id="ribbonBlueFold" x1="0%" y1="20%" x2="100%" y2="85%">
+                            <stop offset="0%" stop-color="#4e6bff" />
+                            <stop offset="45%" stop-color="#7c3aed" />
+                            <stop offset="80%" stop-color="#1e295b" />
+                            <stop offset="100%" stop-color="#04060c" />
+                        </linearGradient>
+                        <linearGradient id="ribbonLowerTrail" x1="80%" y1="30%" x2="5%" y2="95%">
+                            <stop offset="0%" stop-color="#3b4880" stop-opacity="0.85" />
+                            <stop offset="45%" stop-color="#133326" stop-opacity="0.65" />
+                            <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="neonRim" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#7dff96" />
+                            <stop offset="50%" stop-color="#00f2fe" />
+                            <stop offset="100%" stop-color="#6e56cf" />
+                        </linearGradient>
+                        <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="16" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                    </defs>
+                    <path d="M840 460 C890 610, 680 730, 120 890 L40 770 C540 630, 720 530, 660 390 Z" fill="url(#ribbonLowerTrail)" />
+                    <g stroke="rgba(120, 180, 255, 0.14)" stroke-width="1.2">
+                        <path d="M825 480 C870 615, 650 735, 95 880" />
+                        <path d="M810 465 C850 600, 635 720, 80 860" />
+                        <path d="M795 450 C830 585, 620 705, 65 840" />
+                    </g>
+                    <path d="M510 190 C440 310, 575 450, 795 520 C885 550, 910 620, 830 680 C740 585, 620 540, 490 460 C355 375, 370 220, 510 190 Z" fill="url(#ribbonBlueFold)" />
+                    <path d="M1050 -30 C830 -10, 610 65, 515 195 C430 310, 560 440, 820 515 L895 375 C695 315, 635 240, 705 155 C775 70, 930 45, 1080 35 Z" fill="url(#ribbonGreenBody)" filter="url(#neonGlow)" />
+                    <path d="M1050 -30 C830 -10, 610 65, 515 195 C430 310, 560 440, 820 515" stroke="url(#neonRim)" stroke-width="5" stroke-linecap="round" />
+                </svg>
+            </div>
+
+            <div class="container">
+                <div class="hero-top">
+                    <h1 class="hero-title">
+                        ZERO-LOSS<br>
+                        BUSINESS<br>
+                        CONTINUITY
+                    </h1>
+                    <a href="#solutions" class="btn btn--dark-outline">LEARN MORE</a>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="hero-bottom">
+                    <span class="eyebrow eyebrow--dark">WHAT WE DO</span>
+                    <h2 class="what-we-do-heading">
+                        Turning complex network technology
+                        <strong>into business solutions that save you time money and stress</strong>
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="solutions" class="solutions-section">
+            <div class="container">
+                <div class="solutions-header">
+                    <span class="eyebrow eyebrow--light">SOLUTIONS</span>
+                    <h2 class="solutions-heading">
+                        Productivity solutions that <strong>capitalise</strong><br>
+                        on your network <strong>investment</strong>
+                    </h2>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="solutions-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1000&q=85" alt="Network cabling">
+                    </div>
+
+                    <div class="solutions-accordion">
+                        <div class="accordion-item accordion-item--active">
+                            <div class="accordion-title">
+                                <span class="hover-arrow">&rarr;</span>
+                                <span>LEARN MORE</span>
+                            </div>
+                            <div class="accordion-body">
+                                <p>
+                                    Optinet ensures your critical business applications operate without interruption, keeping your workforce productive and stress-free.
+                                </p>
+                                <a href="#network" class="btn btn--solid-black">LEARN MORE</a>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-title">
+                                <span class="hover-arrow">&rarr;</span>
+                                <span>NETWORK TECHNOLOGIES</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-title">
+                                <span class="hover-arrow">&rarr;</span>
+                                <span>MANAGED SERVICES</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-title">
+                                <span class="hover-arrow">&rarr;</span>
+                                <span>CLOUD CONNECTIVITY</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="network" class="network-banner">
+            <div class="container">
+                <span class="eyebrow eyebrow--dark">OUR NETWORK</span>
+                <h2 class="network-heading">
+                    Designed with the latest technology for
+                    <strong>performance, flexibility and high capacity.</strong>
+                </h2>
+                <div class="network-actions">
+                    <a href="#contact" class="btn btn--gradient">FIND OUT MORE</a>
+                    <a href="#contact" class="btn btn--dark-outline">OUR LOOKING GLASS</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=85" alt="Team collaborating">
+                    </div>
+
+                    <div class="about-content">
+                        <span class="eyebrow eyebrow--light">ABOUT US</span>
+                        <h2 class="about-heading">
+                            Navigating the technology and communication provider marketplace <strong>shouldn't be a complex and daunting process.</strong>
+                        </h2>
+                        <a href="#contact" class="btn btn--solid-black">ABOUT OPTINET</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trusted" class="trusted-section">
+            <div class="trusted-divider">
+                <span class="trusted-label">TRUSTED BY</span>
+            </div>
+
+            <div class="trusted-bar">
+                <div class="slider-nav-box" aria-label="Previous">&larr;</div>
+
+                <div class="logos-row">
+                    <span class="client-logo logo-siemens">SIEMENS</span>
+                    <span class="client-logo logo-samsung">SAMSUNG</span>
+                    <span class="client-logo logo-deloitte">Deloitte<span>.</span></span>
+                    <span class="client-logo logo-otis">OTIS</span>
+                    <span class="client-logo logo-ngf">NGF</span>
+                </div>
+
+                <div class="slider-nav-box" aria-label="Next">&rarr;</div>
+            </div>
+        </section>
+
+        <section id="casestudy" class="casestudy-banner">
+            <div class="casestudy-overlay"></div>
+            <div class="casestudy-content">
+                <span class="eyebrow" style="color: rgba(255,255,255,0.8);">CASE STUDY</span>
+                <h2 class="casestudy-title">HOOD GROUP</h2>
+                <p class="casestudy-desc">
+                    Optinet ensures contact centre agents maintain crystal clear voice calls and zero-downtime cloud connectivity across every customer interaction.
+                </p>
+                <a href="#contact" class="btn btn--solid-white">READ MORE</a>
+            </div>
+        </section>
+
+        <section id="why" class="why-section">
+            <div class="container">
+                <div class="why-grid">
+                    <div class="why-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=85" alt="Data center rack">
+                    </div>
+
+                    <div class="why-content">
+                        <span class="eyebrow eyebrow--dark">WHY OPTINET</span>
+                        <h2 class="why-heading">
+                            Put your network
+                            <strong>in safe hands</strong>
+                        </h2>
+                        <p class="why-desc">
+                            Our loyal customers trust us to manage some of their most business-critical systems. With proactive 24/7 monitoring and direct access to senior network engineers.
+                        </p>
+                        <a href="#contact" class="btn btn--solid-white">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="footer">
+            <div class="footer-glow" aria-hidden="true"></div>
+
+            <div class="container footer__inner">
+                <div class="footer-top">
+                    <div>
+                        <h2 class="footer-cta-heading">
+                            Ready to <strong>revolutionise</strong><br>
+                            your business communications<br>
+                            <strong>with unrivalled speed?</strong>
+                        </h2>
+                        <a href="mailto:info@optinet.co.uk" class="btn btn--gradient">GET IN TOUCH</a>
+                    </div>
+
+                    <div>
+                        <h4 class="footer-col-title">CONTACT US</h4>
+                        <div class="footer-contact-block">
+                            <div>
+                                <p style="color: #fff; font-weight: 500; margin-bottom: 8px;">Optinet UK Limited</p>
+                                <strong>HEAD OFFICE</strong>
+                                <p>Floor 3, 24 Eastcheap, London, EC3M 1HD</p>
+                            </div>
+                            <div>
+                                <strong>SOUTHEND</strong>
+                                <p>Floor 12, Maitland House, Warrior Square, Southend-On-Sea, Essex, SS1 2JY</p>
+                                <a href="#contact" class="directions-link">&rarr; DIRECTIONS</a>
+                            </div>
+                            <div>
+                                <strong style="color: #ffffff;">PHONE & EMAIL</strong>
+                                <p>+44 (0) 20 3319 3701<br>info@optinet.co.uk</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="footer-col-title">BUSINESS</h4>
+                        <ul class="footer-nav-list">
+                            <li><a href="#about">ABOUT US</a></li>
+                            <li><a href="#about">CAREERS</a></li>
+                            <li><a href="#solutions">PARTNERS</a></li>
+                            <li><a href="#contact">PRIVACY POLICY</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div>
+                        Optinet is a registered trademark of Optinet UK Limited. Registered in England & Wales No. 09582314.
+                    </div>
+                    <div class="footer-bottom__right">
+                        <a href="#contact">TERMS OF BUSINESS</a>
+                        <span>SITE BY OPTINET STUDIO</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
